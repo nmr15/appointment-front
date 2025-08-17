@@ -1,13 +1,11 @@
-import PatientRegister from "./Pages/PatientRegister"
-
+import Home from "./Pages/Home"
 
 function App() 
 {
   return (
     <>
       <div>
-        <h1>Appointment App</h1>
-        <PatientRegister />
+        <Home />
       </div>
     </>
   )
