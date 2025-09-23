@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
 import './App.scss'
-import axios from "axios";
-import Home from "./Pages/Home"
-import CreateAppointment from "./Pages/CreateAppointment";
+import axios from 'axios';
+import Home from './Pages/Home'
+import CreateAppointment from './Pages/CreateAppointment'
+import Header from './Components/Header'
+import Navbar from "./Components/Navbar"
+import Footer from './Components/Footer'
 
 function App() 
 {
@@ -82,7 +85,10 @@ function App()
   return (
     <>
       <div>
+        <Header />
+        <Navbar />
         <Home />
+        <Footer />
         {/* <CreateAppointment /> */}
         {/* <form onSubmit={submitAppointment}>
           <input 
