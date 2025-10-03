@@ -65,3 +65,35 @@ body
 {
   font-family: "Inter", sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6
+{
+  color: var(--color-text);
+  font-weight: var(--font-semibold);
+}
+
+h2
+{
+  font-size: 36px;
+}
+
+h3
+{
+  font-size: 24px;
+}
+
+h4
+{
+  font-size: 20px;
+}
+
+a
+{
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+p
+{
+  color: var(--color-text);
+}
