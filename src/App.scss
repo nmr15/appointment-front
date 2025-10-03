@@ -97,3 +97,10 @@ p
 {
   color: var(--color-text);
 }
+
+.container 
+{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--px-20);
+}
