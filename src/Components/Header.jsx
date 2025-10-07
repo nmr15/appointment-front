@@ -5,7 +5,9 @@ const Header = () =>
   return (
     <>
       <header className="header">
-        <h3>Header</h3>
+        <div className="header__contact">
+          
+        </div>
       </header>
     </>
   )
