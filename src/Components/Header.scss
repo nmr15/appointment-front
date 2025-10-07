@@ -3,7 +3,7 @@
 .header
 {
   margin: 0 auto;
-  color: #fff;
+  padding: 1rem 0;
   background-color: var(--color-primary);
 
   &__contact div
@@ -14,5 +14,6 @@
   & p
   {
     font-size: 14px;
+    color: #fff;
   }
 }
