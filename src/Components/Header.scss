@@ -3,7 +3,13 @@
 .header
 {
   margin: 0 auto;
+  color: #fff;
   background-color: var(--color-primary);
+
+  &__contact div
+  {
+    display: flex;
+  }
 
   & p
   {
