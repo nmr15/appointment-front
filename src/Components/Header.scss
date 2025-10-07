@@ -4,4 +4,9 @@
 {
   margin: 0 auto;
   background-color: var(--color-primary);
+
+  & p
+  {
+    font-size: 14px;
+  }
 }
