@@ -3,5 +3,26 @@
 .navbar
 {
   display: flex;
+  // justify-content: center;
   align-items: center;
+  padding: var(--px-22) 5rem;
+
+  &__logo
+  {
+    margin-right: 3rem;
+  }
+
+  &__link
+  {
+    padding: 0 var(--px-15);
+    font-size: 15px;
+    font-weight: var(--font-semibold);
+    transition: all 1s;
+
+    &:hover
+    {
+      color: var(--color-primary);
+    }
+  }
+  
 }

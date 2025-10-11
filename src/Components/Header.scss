@@ -11,13 +11,14 @@
     display: flex;
   }
 
-  &__contact:last-child
+  &__contact:last-of-type div
   {
-    margin-left: .5rem;
+    margin-left: 1rem;
   }
 
   & p
   {
+    margin-left: .5rem;
     font-size: 14px;
     color: #fff;
   }
