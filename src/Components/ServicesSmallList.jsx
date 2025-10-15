@@ -1,4 +1,3 @@
-import './ServicesSmall.scss'
 import './ServicesSmall'
 import { FaUserNurse, FaSyringe } from "react-icons/fa";
 import { FaUserDoctor } from "react-icons/fa6";
@@ -15,11 +14,13 @@ const ServicesSmallList = () =>
     <>
       <div className="container">
         <div className="row">
-          {services.map((service) => (
-            <div className="col-4" key={service.id}>
-              <ServicesSmall icon={service.icon} title={service.title} desc={service.desc}/>
-            </div>
-          ))}
+          <div className="col-4">
+            <ServicesSmall 
+              icon=<FaUserNurse />
+              title="Lab Services"
+              desc="Fast, accurate diagnostic testing to support timely and effective medical care."
+            />
+          </div>
         </div>
       </div>
     </>
