@@ -1,5 +1,5 @@
 import Hero from '../Components/Hero'
-import ServicesSmall from '../Components/ServicesSmall'
+import ServicesSmallList from '../Components/ServicesSmallList'
 import Welcome from '../Components/Welcome'
 
 const Home = () => 
@@ -7,7 +7,7 @@ const Home = () =>
   return (
     <>
       <Hero />
-      <ServicesSmall />
+      <ServicesSmallList />
       <Welcome />
     </>
   )
