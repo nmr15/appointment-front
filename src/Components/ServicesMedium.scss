@@ -1,0 +1,34 @@
+@use '../App.scss';
+
+.serviceMd
+{
+    padding: var(--px-40) var(--px-30);
+    border: 5px solid #f6f7f5;
+    transition: all .5s;
+
+    &:hover
+    {
+        border: 5px solid var(--color-primary);
+    }
+
+    & h4, p
+    {
+        margin-top: var(--px-22);
+    }
+
+    &__list
+    {
+        margin-top: var(--px-15);
+
+        & li
+        {
+            margin-bottom: var(--px-16);
+            padding-left: var(--px-30);
+        }
+
+        & li::before
+        {
+            content: "\2713";
+        }
+    }
+}
