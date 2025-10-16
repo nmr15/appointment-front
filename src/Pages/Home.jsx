@@ -1,6 +1,7 @@
 import Hero from '../Components/Hero'
 import ServicesSmallList from '../Components/ServicesSmallList'
 import Welcome from '../Components/Welcome'
+import ServicesMedium from '../Components/ServicesMedium'
 
 const Home = () => 
 {
@@ -9,6 +10,7 @@ const Home = () =>
       <Hero />
       <ServicesSmallList />
       <Welcome />
+      <ServicesMedium />
     </>
   )
 }
