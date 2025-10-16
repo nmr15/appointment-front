@@ -10,8 +10,10 @@ const ServicesSmall = ({ icon, title, desc }) =>
         <span className="serviceSm__icon">
           {icon}
         </span>
-        <h4 className="serviceSm__title">{title}</h4>
-        <p className="serviceSm__desc">{desc}</p>
+        <div>
+          <h4 className="serviceSm__title">{title}</h4>
+          <p className="serviceSm__desc">{desc}</p>
+        </div>
       </div>
     </>
   )
