@@ -1,0 +1,25 @@
+@use '../App.scss';
+
+.serviceSm
+{
+    display: flex;
+    align-items: center;
+    padding: 0 var(--px-15);
+
+    &__icon
+    {
+        width: 56px;
+        height: 56px;
+        color: var(--color-primary);
+    }
+
+    & div
+    {
+        margin-left: var(--px-25);
+    }
+
+    &__desc
+    {
+        margin-top: var(--px-15);
+    }
+}

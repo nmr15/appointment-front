@@ -1,18 +1,16 @@
 import Hero from '../Components/Hero'
-import ServicesSmall from '../Components/ServicesSmall'
+import ServicesSmallList from '../Components/ServicesSmallList'
 import Welcome from '../Components/Welcome'
 import ServicesMedium from '../Components/ServicesMedium'
-import BannerAppt from '../Components/BannerAppt'
 
 const Home = () => 
 {
   return (
     <>
       <Hero />
-      <ServicesSmall />
+      <ServicesSmallList />
       <Welcome />
       <ServicesMedium />
-      <BannerAppt />
     </>
   )
 }
