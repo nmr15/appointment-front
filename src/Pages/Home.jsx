@@ -1,7 +1,8 @@
 import Hero from '../Components/Hero'
 import ServicesSmallList from '../Components/ServicesSmallList'
 import Welcome from '../Components/Welcome'
-import ServicesMedium from '../Components/ServicesMedium'
+import ServicesMediumList from '../Components/ServicesMediumList'
+import BannerAppt from '../Components/BannerAppt'
 
 const Home = () => 
 {
@@ -10,7 +11,8 @@ const Home = () =>
       <Hero />
       <ServicesSmallList />
       <Welcome />
-      <ServicesMedium />
+      <ServicesMediumList />
+      <BannerAppt />
     </>
   )
 }

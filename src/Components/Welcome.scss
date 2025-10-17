@@ -1,6 +1,12 @@
+@use '../App.scss';
+
 .welcome
 {
-  background-color: lightblue;
+  &__intro
+  {
+    width: 90%;
+    margin-top: var(--px-30);
+  }
 
   &__img
   {
