@@ -3,6 +3,8 @@ import { Routes, Route } from 'react-router-dom'
 import './App.scss'
 import axios from 'axios';
 import Home from './Pages/Home'
+import Services from './Pages/Services'
+import Doctors from './Pages/Doctors'
 import CreateAppointment from './Pages/CreateAppointment'
 import Header from './Components/Header'
 import Navbar from "./Components/Navbar"
@@ -90,6 +92,8 @@ function App()
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/services' element={<Services />} />
+          <Route path='/doctors' element={<Doctors />} />
         </Routes>
         <Footer />
         {/* <CreateAppointment /> */}
