@@ -2,7 +2,8 @@ import ServicesMedium from './ServicesMedium'
 import { FaXRay } from "react-icons/fa";
 
 const services = [
-  {id: "1", icon: <FaXRay className="icon" />, title: "Radiology", desc: "Lorem ipsum", list: ["X-ray", "CT scan", "PET scan", "MRI", "Ultrasound", "Mammogram"]}
+  {id: "1", icon: <FaXRay className="icon" />, title: "Radiology", desc: "Lorem ipsum", list: ["X-ray", "CT scan", "PET scan", "MRI", "Ultrasound", "Mammogram"]},
+  {id: "2", icon: "", title: "Rehabilitation", desc: "Lorem ipsum", list: ["Physical Therapy", "Occupation Therapy", "Speech Therapy", "Aquatic Therapy", "Wound Care", "Pediatric Rehabilitation"]}
 ]
 
 const ServicesMediumList = () => 
