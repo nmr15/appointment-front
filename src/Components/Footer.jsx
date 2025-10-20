@@ -1,9 +1,9 @@
 import './Footer.scss'
-import { FaLocationDot, FaPhoneAlt, FaEnvelope } from "react-icons/fa6";
+import { FaLocationDot, FaPhone, FaEnvelope } from "react-icons/fa6";
 
 const contact = [
   {id: "1", icon: <FaLocationDot />, info: "1111 Fake St, Los Angeles, CA"},
-  {id: "2", icon: <FaPhoneAlt />, info: "(800)-123-4567"},
+  {id: "2", icon: <FaPhone />, info: "(800)-123-4567"},
   {id: "3", icon: <FaEnvelope />, info: "info@fakeemail.net"}
   ]
 
