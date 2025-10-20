@@ -1,4 +1,11 @@
 import './Footer.scss'
+import { FaLocationDot, FaPhoneAlt, FaEnvelope } from "react-icons/fa6";
+
+const contact = [
+  {id: "1", icon: <FaLocationDot />, info: "1111 Fake St, Los Angeles, CA"},
+  {id: "2", icon: <FaPhoneAlt />, info: "(800)-123-4567"},
+  {id: "3", icon: <FaEnvelope />, info: "info@fakeemail.net"}
+  ]
 
 const Footer = () => 
 {
@@ -8,18 +15,26 @@ const Footer = () =>
         <footer className="footer">
           <div className="row">
             <div className="col-4">
-              <div className="footer__left">
-                <h3>Footer Left</h3>
+              <div className="footer__email">
+                <h3>Email</h3>
               </div>
             </div>
             <div className="col-4">
-              <div className="footer__middle">
-                <h3>Footer Middle</h3>
+              <div className="footer__blog">
+                <h3>Blog Post</h3>
               </div>
             </div>
             <div className="col-4">
-              <div className="footer__right">
-                <h3>Footer Right</h3>
+              <div className="footer__contact">
+                <h3>Contact</h3>
+                <ul className="footer__contact-list">
+                  {contact.map((contact) => (
+                    <li className="footer__contact-item" key={contact.id}>
+                      <span>{contact.icon}</span>
+                      <p>{contact.info}</p>
+                    </li>
+                  ))}
+                </ul>
             </div>
             </div>
           </div>
