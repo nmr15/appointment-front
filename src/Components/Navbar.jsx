@@ -7,7 +7,7 @@ const Navbar = () =>
     <>
       <nav className="navbar">
         <div className="navbar__logo">
-          <img src="/assets/logo.png" alt="" />
+          <img src="https://placehold.co/180x60" alt="" />
         </div>
         <div className="navbar__list">
           <Link to='/' className="navbar__link">Home</Link>
