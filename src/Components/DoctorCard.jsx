@@ -15,6 +15,8 @@ const DoctorCard = () =>
                         <span>Internal Medicine</span>
                     </div>
                 </div>
+            </div>
+            <div className="col-3">
                 <div className="docCard">
                     <div className="docCard__img">
                         <img src="https://placehold.co/200x200?text=Doctor" alt="doctor_image" />
@@ -24,6 +26,8 @@ const DoctorCard = () =>
                         <span>Internal Medicine</span>
                     </div>
                 </div>
+            </div>
+            <div className="col-3">
                 <div className="docCard">
                     <div className="docCard__img">
                         <img src="https://placehold.co/200x200?text=Doctor" alt="doctor_image" />
@@ -33,6 +37,8 @@ const DoctorCard = () =>
                         <span>Internal Medicine</span>
                     </div>
                 </div>
+            </div>
+            <div className="col-3">
                 <div className="docCard">
                     <div className="docCard__img">
                         <img src="https://placehold.co/200x200?text=Doctor" alt="doctor_image" />
