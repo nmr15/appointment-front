@@ -1,10 +1,12 @@
-const Template = () =>
+import './DoctorCard.scss'
+
+const DoctorCard = () =>
 {
   return(
     <>
-      <div>Template</div>
+      <div>DoctorCard</div>
     </>
   )
 }
 
-export default Template;
+export default DoctorCard;

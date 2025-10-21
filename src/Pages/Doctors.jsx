@@ -1,3 +1,5 @@
+import DoctorCard from '../Components/DoctorCard'
+
 const Doctors = () =>
 {
   return(
