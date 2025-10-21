@@ -22,8 +22,8 @@ const DoctorCard = () =>
                         <img src="https://placehold.co/200x200?text=Doctor" alt="doctor_image" />
                     </div>
                     <div className="docCard__content">
-                        <h3>Dr. Alex Carter</h3>
-                        <span>Internal Medicine</span>
+                        <h3>Dr. Barbara Tully</h3>
+                        <span>Neurologist</span>
                     </div>
                 </div>
             </div>
@@ -33,8 +33,8 @@ const DoctorCard = () =>
                         <img src="https://placehold.co/200x200?text=Doctor" alt="doctor_image" />
                     </div>
                     <div className="docCard__content">
-                        <h3>Dr. Alex Carter</h3>
-                        <span>Internal Medicine</span>
+                        <h3>Dr. Maya Richards</h3>
+                        <span>Oncologist</span>
                     </div>
                 </div>
             </div>
@@ -44,8 +44,8 @@ const DoctorCard = () =>
                         <img src="https://placehold.co/200x200?text=Doctor" alt="doctor_image" />
                     </div>
                     <div className="docCard__content">
-                        <h3>Dr. Alex Carter</h3>
-                        <span>Internal Medicine</span>
+                        <h3>Dr. Susan Eden</h3>
+                        <span>Endocrinologist</span>
                     </div>
                 </div>
             </div>
