@@ -10,4 +10,14 @@
     {
         border-radius: 50%;
     }
+
+    &__content
+    {
+        margin-top: var(--px-25);
+
+        & h3
+        {
+            margin-bottom: var(--px-15);
+        }
+    }
 }
