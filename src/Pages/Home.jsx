@@ -8,11 +8,13 @@ const Home = () =>
 {
   return (
     <>
-      <Hero />
-      <ServicesSmallList />
-      <Welcome />
-      <ServicesMediumList />
-      <BannerAppt />
+      <main className="main">
+        <Hero />
+        <ServicesSmallList />
+        <Welcome />
+        <ServicesMediumList />
+        <BannerAppt />
+      </main>
     </>
   )
 }
