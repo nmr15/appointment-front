@@ -4,7 +4,10 @@ const Doctors = () =>
 {
   return(
     <>
-      <DoctorCard />
+      <main className="main">
+        <DoctorCard />
+        <div className="push"></div>
+      </main>
     </>
   )
 }

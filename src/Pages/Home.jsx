@@ -14,6 +14,7 @@ const Home = () =>
         <Welcome />
         <ServicesMediumList />
         <BannerAppt />
+        <div className="push"></div>
       </main>
     </>
   )
