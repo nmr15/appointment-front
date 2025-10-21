@@ -2,4 +2,9 @@
 {
     height: 250px;
     background-color: lightcoral;
+
+    & h3
+    {
+        margin-bottom: var(--px-25);
+    }
 }
