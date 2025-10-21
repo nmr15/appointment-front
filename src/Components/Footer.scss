@@ -7,4 +7,9 @@
     {
         margin-bottom: var(--px-25);
     }
+
+    &__blog-item, &__contact-item
+    {
+        display: flex;
+    }
 }

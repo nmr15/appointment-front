@@ -33,8 +33,10 @@ const Footer = () =>
                     {blog.map((blog) => (
                       <li className="footer__blog-item" key={blog.id}>
                         <img src={blog.img} alt="" />
-                        <a href="#">{blog.link}</a>
-                        <p>{blog.date}</p>
+                        <div>
+                          <a href="#">{blog.link}</a>
+                          <p>{blog.date}</p>
+                        </div>
                       </li>
                     ))}
                   </ul>
