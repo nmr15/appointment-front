@@ -1,5 +1,11 @@
+@use '../App.scss';
+
 .docCard
 {
+    padding: var(--px-40);
+    text-align: center;
+    background-color: #f5f5f5;
+
     &__img img
     {
         border-radius: 50%;
