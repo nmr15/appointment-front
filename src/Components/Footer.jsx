@@ -17,8 +17,8 @@ const Footer = () =>
 {
   return (
     <>
-      <div className="container">
-        <footer className="footer">
+      <footer className="footer">
+        <div className="container">
           <div className="row">
             <div className="col-4">
               <div className="footer__email">
@@ -51,10 +51,9 @@ const Footer = () =>
                   ))}
                 </ul>
             </div>
-            </div>
           </div>
-        </footer>
-      </div>
+        </div>
+      </footer>
     </>
   )
 }
