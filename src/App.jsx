@@ -94,6 +94,7 @@ function App()
           <Route path='/' element={<Home />} />
           <Route path='/services' element={<Services />} />
           <Route path='/doctors' element={<Doctors />} />
+          <Route path='/appointments' element={<CreateAppointment />} />
         </Routes>
         <Footer />
         {/* <CreateAppointment /> */}
